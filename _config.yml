@@ -21,13 +21,13 @@ repository               : "siyu-meng.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "/images/profile.png"
   name             : "Siyu Meng"
-  pronouns         : # example: "she/her"  
+#  pronouns         : # example: "she/her"  
   bio              : "Fifth-year Doctoral Candidate in Peking University"
   location         : "Beijing"
   employer         : "Peking University"
-  uri              : # URL
+  #uri              : # URL
   email            : "mengsiyu[at]pku.edu.cn" 
 
   # Academic websites
@@ -101,7 +101,7 @@ staticman:
   path                   : "_data/comments/{options.slug}"
   requiredFields         : ['name', 'email', 'message']
   transforms:
-    email                : "md5"
+    email                : # "md5"
   generatedFields:
     date:
       type               : "date"
